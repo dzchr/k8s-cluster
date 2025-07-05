@@ -51,4 +51,4 @@ http://"IP_del_nodo":31497
 ### Christopher Cabrera González
 - 📧 chr.cabrera@duocuc.cl
 - 📘 Duoc UC – Ingeniería en Infraestructura y Plataformas Tecnológicas
-- 🧪 Evaluación 3 – Asignatura: Diseño de Soluciones de Infraestructura (DIY7121)
+- 🧪 Evaluación 3 – Diseño de Soluciones de Infraestructura (DIY7121)
