@@ -29,23 +29,23 @@ k8s-cluster/
 El clúster implementa WordPress y MySQL en pods separados. Cada uno cuenta con almacenamiento persistente definido mediante PVC y PV. El acceso externo a WordPress se realiza a través de un servicio NodePort. Las credenciales de conexión están gestionadas mediante un recurso Secret.
 
 ## 🧩 Componentes Kubernetes
-Deployments: WordPress y MySQL
-Pods: wordpress-pod y mysql-pod
-PVC / PV: Almacenamiento persistente para ambos servicios
-Secrets: mysql-pass con credenciales seguras
-Services: wordpress-service: tipo NodePort (ej: 31497) / mysql-service: tipo ClusterIP (interno)
+- Deployments: WordPress y MySQL
+- Pods: wordpress-pod y mysql-pod
+- PVC / PV: Almacenamiento persistente para ambos servicios
+- Secrets: mysql-pass con credenciales seguras
+- Services: wordpress-service: tipo NodePort (ej: 31497) / mysql-service: tipo ClusterIP (interno)
 
 ## 🖼️ Diagrama de Arquitectura
 ![Diagrama_ev3](https://github.com/user-attachments/assets/38a08645-b877-481c-bdc5-304aaabfc278)
 
 ## ⚙️ Despliegue Manual
-kubectl apply -f cluster_setup/secret.yaml
-kubectl apply -f cluster_setup/storage_setup.yaml
-kubectl apply -f cluster_setup/mysql-deployment.yaml
-kubectl apply -f cluster_setup/wordpress-deployment.yaml
+- kubectl apply -f cluster_setup/secret.yaml
+- kubectl apply -f cluster_setup/storage_setup.yaml
+- kubectl apply -f cluster_setup/mysql-deployment.yaml
+- kubectl apply -f cluster_setup/wordpress-deployment.yaml
 
 ## 🌐 Acceso a WordPress
-http://<IP del nodo>:31497
+http://"IP_del_nodo":31497
 
 ## 🎓 Autor
 ### Christopher Cabrera González
