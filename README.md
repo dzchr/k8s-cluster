@@ -12,7 +12,7 @@ k8s-cluster/
 │   ├── wordpress-deployment.yaml
 │   ├── mysql-deployment.yaml
 │   ├── storage_setup.yaml
-│   └── secret.yaml
+│   └── calico.yaml
 │
 ├── README.md
 └── Diagrama_ev3.jpg
