@@ -16,6 +16,8 @@ k8s-cluster/
 │
 ├── README.md
 └── Diagrama_ev3.jpg
+└── Ev3_Virtualizacion.pdf
+└── Evidencias.jpg
 </pre>
 
 ## 🚀 Tecnologías Utilizadas
